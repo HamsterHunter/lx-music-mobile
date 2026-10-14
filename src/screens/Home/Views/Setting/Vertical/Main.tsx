@@ -8,6 +8,7 @@ import Search from '../settings/Search'
 import List from '../settings/List'
 import Sync from '../settings/Sync'
 import Backup from '../settings/Backup'
+import WebDav from '../settings/WebDav'
 import Other from '../settings/Other'
 import Version from '../settings/Version'
 import About from '../settings/About'
@@ -37,6 +38,7 @@ const ListItem = memo(({
     case 'list': return <List />
     case 'sync': return <Sync />
     case 'backup': return <Backup />
+    case 'webdav': return <WebDav />
     case 'other': return <Other />
     case 'version': return <Version />
     case 'about': return <About />
